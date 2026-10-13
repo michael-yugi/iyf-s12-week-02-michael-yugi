@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Yugi - Home</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+    
+<body>
+
+    <!-- Main heading -->
+    <h1>Michael Yugi</h1>
+
+    <!-- Introduction -->
+    <p>
+        Hello! My name is Michael Yugi. I am a student learning
+        web development and programming. I enjoy learning new
+        technologies and building websites.
+    </p>
+    
+    <!-- My image -->
+    <img src="https://placehold.co/300x300" alt="My profile picture">
+
+<nav class="navbar">
+    <a href="#home" class="logo">Michael Yugi</a>
+
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="menu-icon">
+        ☰
+    </label>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+    <!-- Cards Section -->
+<section class="cards-container" id="projects">
+
+    <div class="card">
+        <h3>Project One</h3>
+        <p> An HTML website built to practice web development.</p>
+    </div>
+
+    <div class="card">
+        <h3>Project Two</h3>
+        <p>A responsive website styled using CSS.</p>
+    </div>
+
+    <div class="card">
+        <h3>Project Three</h3>
+        <p>A personal portfolio showcasing my learning projects.</p>
+    </div>
+
+</section>
+    
+    <!-- Hobbies -->
+    <h2>My Hobbies and Interests</h2>
+
+    <ul>
+        <li>Coding</li>
+        <li>Listening to music</li>
+        <li> Playing sports and video games</li>
+    </ul>
+
+    <!-- Favorite website -->
+    <h2>My Favorite Website</h2>
+
+    <p>
+        Visit my favourite website:
+        <a href="https://github.com" target="_blank">GitHub</a>
+    </p>
+
+  <!-- Photo Gallery -->
+<section class="gallery-section">
+
+    <h2>My Photo Gallery</h2>
+
+    <div class="photo-gallery">
+
+        <div class="gallery-item">
+            <img src="images/photo1.jpg" alt="Photo 1">
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/photo2.jpg" alt="Photo 2">
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/photo3.jpg" alt="Photo 3">
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/photo4.jpg" alt="Photo 4">
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/photo5.jpg" alt="Photo 5">
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/photo6.jpg" alt="Photo 6">
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-columns">
+        <div class="footer-column">
+            <h3>About</h3>
+            <p>Learning web development and building websites.</p>
+        </div>
+        <div class="footer-column">
+            <h3>Links</h3>
+            <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Contact</h3>
+            <ul>
+            <li><a href="mailto:michaelyugi598@gmail.com">Email Me</a></li>
+            <li><a href="https://github.com/michael-yugi">GitHub</a></li>
+        </ul>
+        </div>
+    </div>
+    
+    <p class="copyright">
+        &copy; 2026 Michael Yugi. All rights reserved.
+    </p>
+</footer>
