@@ -1,0 +1,43 @@
+/* Hero Section */
+.daily-hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("images/hero.jpg") center/cover no-repeat;
+
+    color: white;
+}
+
+.daily-hero-content {
+    max-width: 750px;
+}
+
+.daily-hero-content h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 20px;
+}
+
+.daily-hero-content p {
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    margin-bottom: 25px;
+}
+
+.hero-cta {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero-cta:hover {
+    background-color: #1d4ed8;
+}

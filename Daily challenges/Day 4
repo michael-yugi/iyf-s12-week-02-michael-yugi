@@ -1,0 +1,50 @@
+/* Contact Form Styling */
+.form-section {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.styled-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.styled-form input,
+.styled-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font: inherit;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.styled-form input:focus,
+.styled-form textarea:focus {
+    outline: 2px solid #2563eb;
+    outline-offset: 1px;
+    border-color: #2563eb;
+}
+
+/* Invalid form fields */
+.styled-form input:invalid:not(:placeholder-shown),
+.styled-form textarea:invalid:not(:placeholder-shown) {
+    border-color: #dc2626;
+}
+
+.styled-form button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.styled-form button:hover {
+    background-color: #1d4ed8;
+}
