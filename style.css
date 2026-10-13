@@ -120,3 +120,119 @@ button:hover {
         font-size: 20px;
     }
 }
+
+/* Typography System */
+
+:root {
+    --font-xs: 0.75rem;    /* 12px */
+    --font-sm: 0.875rem;   /* 14px */
+    --font-base: 1rem;     /* 16px */
+    --font-lg: 1.125rem;   /* 18px */
+    --font-xl: 1.5rem;     /* 24px */
+    --font-2xl: 1.875rem;  /* 30px */
+    --font-3xl: 2.25rem;   /* 36px */
+    --font-4xl: 2.5rem;    /* 40px */
+}
+
+/* Body text */
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: var(--font-base);
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: var(--font-4xl);
+}
+
+h2 {
+    font-size: var(--font-3xl);
+}
+
+h3 {
+    font-size: var(--font-2xl);
+}
+
+/* Small text */
+small {
+    font-size: var(--font-sm);
+}
+
+/* Color Scheme */
+
+:root {
+    --color-primary: #2563eb;
+    --color-secondary: #7c3aed;
+    --color-background: #f8fafc;
+    --color-text: #1e293b;
+    --color-muted: #64748b;
+
+    /* Primary color variations */
+    --color-primary-light: #dbeafe;
+    --color-primary-dark: #1d4ed8;
+}
+
+/* Page background and text */
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+    color: var(--color-primary-dark);
+}
+
+/* Links */
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-secondary);
+    text-decoration: underline;
+}
+
+/* Buttons */
+button {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-primary-dark);
+}
+
+/* Cards and sections */
+.card {
+    background-color: var(--color-background);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+/* Muted text */
+small,
+.muted-text {
+    color: var(--color-muted);
+}
