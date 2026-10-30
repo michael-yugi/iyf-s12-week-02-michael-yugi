@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -765,5 +766,620 @@ body {
         transition-duration: 0.01ms !important;
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
+    }
+}
+
+/* Box Model Practice */
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    width: 200px;
+    min-height: 120px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Exercise 1: Content */
+.content-box {
+    background-color: lightblue;
+}
+
+/* Exercise 2: Padding */
+.padding-box {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+/* Exercise 3: Border */
+.border-box {
+    background-color: lightyellow;
+    border: 5px solid black;
+}
+
+/* Exercise 4: Margin */
+.margin-box {
+    background-color: lightcoral;
+    margin: 20px;
+}
+
+/* Exercise 2: Debug the Layout */
+
+.debug-section {
+    margin-top: 40px;
+}
+
+.broken-box {
+    width: 300px;
+    padding: 20px;
+    border: none;
+    box-sizing: border-box;
+    background-color: lightblue;
+    text-align: center;
+}
+
+/* Exercise 3: Card Component */
+
+.card-section {
+    margin-top: 40px;
+}
+
+.practice-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 20px 0;
+    background-color: white;
+}
+
+.practice-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content {
+    padding-top: 15px;
+}
+
+.card-content h3 {
+    margin-bottom: 15px;
+}
+
+.card-content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.card-content button {
+    padding: 10px 20px;
+    background-color: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-content button:hover {
+    background-color: #1e3a8a;
+}
+
+/* Apply Typography */
+
+body {
+    font-family: var(--font-body);
+    font-size: var(--font-base);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: var(--font-4xl);
+}
+
+h2 {
+    font-size: var(--font-3xl);
+}
+
+h3 {
+    font-size: var(--font-2xl);
+}
+
+p {
+    font-size: var(--font-base);
+}
+
+small {
+    font-size: var(--font-sm);
+}
+
+/* Task 4.1: Flexbox Navigation */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+/* Exercise 2: Flexbox Card Layout */
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    flex: 1 1 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+/* Exercise 3: Flexbox Footer Layout */
+
+.footer {
+    background-color: #1e293b;
+    color: white;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1 1 200px;
+}
+
+.footer-column h3 {
+    color: #60a5fa;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    color: #60a5fa;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid #475569;
+    padding-top: 20px;
+    margin-top: 25px;
+}
+
+/* Photo Gallery - CSS Grid */
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Responsive Photo Gallery */
+@media (max-width: 768px) {
+    .photo-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .photo-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Magazine Layout - CSS Grid */
+
+.magazine-container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header"
+        "sidebar content"
+        "footer footer";
+    gap: 20px;
+    padding: 20px;
+}
+
+.magazine-header {
+    grid-area: header;
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.magazine-sidebar {
+    grid-area: sidebar;
+    background-color: #e2e8f0;
+    padding: 20px;
+}
+
+.magazine-content {
+    grid-area: content;
+    padding: 20px;
+}
+
+.magazine-content article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.magazine-footer {
+    grid-area: footer;
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Magazine Layout */
+
+@media (max-width: 768px) {
+    .magazine-container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "sidebar"
+            "content"
+            "footer";
+    }
+
+    .magazine-sidebar {
+        text-align: center;
+    }
+}
+
+/* Responsive Project Cards Grid */
+
+.projects-grid-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.project-card h2 {
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.project-card a {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: var(--color-primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Responsive Project Cards */
+
+@media (max-width: 1023px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile Navigation */
+@media (max-width: 767px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    .menu-toggle:checked ~ .nav-links {
+        display: flex;
+    }
+}
+
+/* Hamburger Menu Styling */
+
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--color-text);
+}
+
+@media (max-width: 767px) {
+    .hamburger {
+        display: block;
+    }
+}
+
+/* Responsive Hero Section */
+
+@media (max-width: 767px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    .hero-content,
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-image img {
+        max-width: 250px;
+        height: auto;
+        margin: 20px auto;
+    }
+}
+
+/* Contact Page Layout */
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.contact-form,
+.contact-info {
+    padding: 25px;
+    background-color: var(--color-background);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font: inherit;
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+}
+
+/* Responsive Contact Page */
+
+@media (max-width: 767px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .contact-form,
+    .contact-info {
+        width: 100%;
+    }
+}
+
+/* Website Polish - Hover Effects */
+
+button,
+.btn {
+    transition: all 0.3s ease;
+}
+
+button:hover,
+.btn:hover {
+    transform: translateY(-3px);
+    opacity: 0.85;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+/* Gallery Image Hover Effect */
+
+.gallery-item img {
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Keyboard Focus Effects */
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    outline: 3px solid #007bff;
+    outline-offset: 3px;
+}
+
+/* Smooth Scrolling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Responsive Website Design */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tablet Screens */
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .photo-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .photo-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    button,
+    .btn {
+        width: 100%;
+    }
+}
+
+/* Accessibility - Reduced Motion */
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
     }
 }
