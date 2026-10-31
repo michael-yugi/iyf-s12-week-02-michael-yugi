@@ -24,7 +24,7 @@ During Week 2, my main learning objectives included:
 * Styling cards and other webpage components.
 * Creating navigation bars.
 * Improving webpage layouts and visual appearance.
-* Organizing HTML and CSS files.
+* Organising HTML and CSS files.
 
 ---
 
