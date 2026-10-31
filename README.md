@@ -93,7 +93,7 @@ iyf-s12-week-02-michael-yugi/
 │
 ├── README.md
 │
-├── index,html
+├── index.html
 │
 └── style.css
 ```
