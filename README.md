@@ -32,7 +32,7 @@ During Week 2, my main learning objectives included:
 
 ### 1. CSS Box Model
 
-Practiced the fundamental CSS Box Model concepts:
+Practised the fundamental CSS Box Model concepts:
 
 * Content
 * Padding
