@@ -44,7 +44,7 @@ Practised the fundamental CSS Box Model concepts:
 Completed practical exercises involving:
 
 * Element dimensions.
-* Background colors.
+* Background colours.
 * Borders and spacing.
 * Box sizing.
 * Card layouts.
