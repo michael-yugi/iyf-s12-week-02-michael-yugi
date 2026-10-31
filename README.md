@@ -59,7 +59,7 @@ Worked on building and styling a personal webpage featuring:
 * Navigation bar.
 * Projects section.
 * Hobbies and interests.
-* Favorite website.
+* Favourite website.
 * Photo gallery.
 * Footer section.
 
