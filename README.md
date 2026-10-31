@@ -115,7 +115,7 @@ By completing these activities, I gained practical experience in:
 
 ## 🚀 KEY TAKEAWAYS
 
-Week 2 strengthened my understanding of how CSS transforms basic HTML structures into attractive and well-organized web pages.
+Week 2 strengthened my understanding of how CSS transforms basic HTML structures into attractive and well-organised web pages.
 
 I learned that good web design requires proper spacing, consistent styling, organized layouts, and attention to detail.
 
