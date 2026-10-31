@@ -12,21 +12,6 @@ This repository showcases my practical learning experience in CSS mastery, focus
 
 ---
 
-## 👨‍💻 ABOUT ME
-
-Hi! I'm **Michael Yugi**, an aspiring software developer passionate about technology, creativity, and building useful digital solutions.
-
-I am currently developing my skills in web development and programming through hands-on exercises, assignments, and personal projects.
-
-* **Name:** Michael Yugi
-* **Program:** IYF Weekend Academy
-* **Season:** 12
-* **Week:** 02
-* **Learning Focus:** CSS Mastery
-* **GitHub:** michael-yugi
-
----
-
 ## 🎯 LEARNING OBJECTIVES
 
 During Week 2, my main learning objectives included:
