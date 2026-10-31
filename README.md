@@ -138,9 +138,4 @@ Every exercise helped me build confidence and improve my problem-solving skills 
 
 ---
 
-## 🔗 CONNECT WITH ME
-
-* **GitHub:** michael-yugi
-* **LinkedIn:** Michael Yugi
-* **X:** @michaelyugi1
 
