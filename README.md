@@ -122,5 +122,3 @@ I learned that good web design requires proper spacing, consistent styling, orga
 Every exercise helped me build confidence and improve my problem-solving skills as an aspiring developer.
 
 ---
-
-
