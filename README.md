@@ -1,5 +1,8 @@
 # 🚀 IYF SEASON 12 — WEEK 02
 
+## Live demo
+https://michael-yugi.github.io/iyf-s12-week-02-michael-yugi/
+
 ## CSS MASTERY | Web Development Journey
 
 ![CSS](https://img.shields.io/badge/CSS3-Styling-blue?logo=css3\&logoColor=white)
